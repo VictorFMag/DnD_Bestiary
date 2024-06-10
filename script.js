@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <p><strong>Classe de Armadura:</strong> ${armorClass}</p>
                     <p><strong>Pontos de Vida:</strong> ${data.hit_points}</p>
                     <p><strong>Velocidade:</strong> ${data.speed.walk}</p>
+                    <p><strong>Imune a:</strong> ${data.damage_immunities}</p>
                     <h4>Estatísticas</h4>
                     <ul>
                         <li><strong>Força:</strong> ${data.strength}</li>
